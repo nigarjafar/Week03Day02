@@ -1,0 +1,58 @@
+-------------Duzgun ve oxunaqli CSS kodu yazmaq ucun lazim olabilecek 10 qayda
+
+1. Reset Css istifade etmek: Bu qayda kod yazarken qarsilasa bileceyimiz margin, padding , line height kimi default xususiyyetleri sifirlayer,istifade ederken elave
+ problem yaratmir. Hemcinin her hansi bir tag-in xususiyyetleri (meselen h3) muxtelif browserlere gore deyise biler, reset-den istifade ederken ise onlari
+ozumuz teyin etdiyimiz ucun bu ehtimal olmur.
+
+2. Ilk once HTML faylindaki baslica xususiyyetleri yazmaq: Dizayna kecmemisden qabaq htmlde esas hisseleri (meselen : header, footer, content kimi) yazmaq daha effektivdir.
+evvelceden planlamaya ayrilan 10-15 deqiqe kodlamada bize 1 saata qeder vaxt qazandira biler. HTML kodunun istediyimiz kimi oldugundan emin olduqdan sonra dizayna baslamaq
+daha uygundur.
+
+3. Css faylini hisselere bolmek: Butun xususiyyetleri sirayla yazdigimiz 500 setirlik css fayl dusunsek, onda 500 setir arasinda content hissedeki paraqrafin rengini deyismek
+isteyende onun xususiyyetlerin tapmaq(+hele bunu kodu yazanin ozu yox basqa birinin axtardigini dusunsek ) probleme cevrilecek+ cox vaxt teleb edecek.
+(kiminse sebri catib onun axtarsa tebiiki). Ona gore de her sectiona aid olan hissenin kodun sectionun xususiyyetlerinden sonra yazsaq axtaranda problem olmaz.
+
+4.Commentlerden istifade etmek : Yuxarida ayirdigimiz sectionlarin ustune de hemin sectionun adini comment olaraq yazsaq, onda lap ela olar :D hem axtaranda rahat tapariq,
+hem de basqalari ucun anlasiqli olar.
+
+5. Coxlu class ve id-lerin yerine Nth-child xususiyyetinden istifade elemek :Her kicik xususiyyete gore yeni class verende sonradan kod qarisiq hala gelecek,hem de classlari
+yadda saxlamaq cetin olacaq,ona gore de mumkun qeder nth-childlardan istifade etmek lazimdi.(yeni uzaq qohum usaqlarinin adin oyrenmekdense filankesin 
+kicik oglu(last-child) demek)
+
+6. Mutleq qiymetlerden istifade etmek : mutleq qiymetleri comment kimi yazmaq lazim olanda tez tapmaga komek edir. Meselen , menunun, backgroundun ve contentin
+renglerin adini kodlari ile birlikde comment kimi yazsaq, ikinci defe lazim olsa ve ya sehven deyissek ,rengi tez tapmagimiza komek eder. (Reference kimi)
+
+7.Classlara oz xususiyyetine uygun ad vermek: Rahat yadda saxlamaga + anlasiqli olmaga komek edecek.
+
+8. px yerine %den istifade etmek : Bodynin pxin deyissek butun divleri deyismeye ehtiyac qalmayacaq, ozleri ona uygun nisbetde deyisecek. Hem muxtelif browserlerde
+olan goruntu deyisikliyinin qarsisini ala biler.
+
+9. font-sizeda: px yerine em istifade etmek: 8.deki xususiyyetler+ headingin olcusun vererken yuxari cixib paraqrafi nece px verdiyimi axtarmali, onu 2x 3x-e vurmali,
+ve pxi deyisende onlari da deyismeli olmamaq ucun normal olcunun nisbetinde (yeni em-le ) vermek lazimdir.
+
+10. DRY- ozunu tekrarlama : eger 2 ve daha artiq tagin ortaq xususiyyetleri varsa, onlari 2 defe ayri-ayri yazmaq yerine ,birlikde yazmaq (h1, h2{} kimi) daha rahatdir.
+
+
+----------------Font Awesome kimi ikon fontlari varmi Varsa qisaca haqlarinda melumat verin
+
+Font Awesome fontlaren classlara cevrilmis halidir. Word document-de sonuncular buna misal ola biler. Bele (en maraqli) fontlari classlara ayirib uygun adlandiraraq
+sadece olaraq istifadesini asanlasdiriblar,eks halda biz her bir fontda hansi simvol hansi icona uygun gelir deye axtarmaliydiq. FOnt yerine sekilden de istifade oluna 
+biler,lakin bu hem olcu , hem yaddas baximindan problem olacaq, iconlar ise font oldugundan tenzimlemek asandi.
+
+---------------Azerbaycan fontlari
+1.Fabada
+2.Futurica
+3.Josef K Paneuropean
+4.la Chatte a Maman
+5.Lionel of Paris
+6.Maven Pro Light
+7.Comfortaa
+8.Samsung Sharp Sans
+9.Sweetly Broken
+10.Geogrotesque
+
+Daha coxu ucun ( :D ): fontlar.info 
+
+Istifade etmek ucun:
+1. html-e online link elave edib istifade etmek. hansiki daha asandir.
+2. fontu yukleyib islediyimiz foldere atmaliyiq ki, kimdese hemin font olmazsa sayti yukleyende avtomatik olaraq fontu da yuklesin.
